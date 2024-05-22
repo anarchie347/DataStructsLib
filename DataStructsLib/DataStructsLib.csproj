@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <SignAssembly>false</SignAssembly>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <AssemblyName>Anarchie.DataStructsLib</AssemblyName>
+	  <RootNamespace>Anarchie.DataStructsLib</RootNamespace>
+	  <Title>Themes</Title>
+	  <Authors>anarchie347</Authors>
+	  <Company />
+	  <Product>DataStructsLib</Product>
+	  <Description>Implements a variety of data structures</Description>
+	  <PackageProjectUrl>https://github.com/anarchie347/DataStructsLib</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/anarchie347/DataStructsLib</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>C#; .NET; Data Structures</PackageTags>
+	  <PackageReleaseNotes>Released version 1.0</PackageReleaseNotes>
+	  <PackAsTool>false</PackAsTool>
+	  <Copyright>Copyright (c) 2024 anarchie347</Copyright>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <AssemblyVersion>1.0.0</AssemblyVersion>
+	  <FileVersion>1.0.0</FileVersion>
+	  
+	  
+  </PropertyGroup>
+
+</Project>
