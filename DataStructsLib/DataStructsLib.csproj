@@ -16,16 +16,24 @@
 	  <Description>Implements a variety of data structures</Description>
 	  <PackageProjectUrl>https://github.com/anarchie347/DataStructsLib</PackageProjectUrl>
 	  <RepositoryUrl>https://github.com/anarchie347/DataStructsLib</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <RepositoryType>git</RepositoryType>
 	  <PackageTags>C#; .NET; Data Structures</PackageTags>
-	  <PackageReleaseNotes>Released version 1.0</PackageReleaseNotes>
-	  <PackAsTool>false</PackAsTool>
+	  <PackageReleaseNotes>Released version 1.0.0</PackageReleaseNotes>
+	  <PackAsTool>False</PackAsTool>
 	  <Copyright>Copyright (c) 2024 anarchie347</Copyright>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <AssemblyVersion>1.0.0</AssemblyVersion>
 	  <FileVersion>1.0.0</FileVersion>
-	  
-	  
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
